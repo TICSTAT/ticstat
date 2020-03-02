@@ -1,3 +1,7 @@
+#####################################################
+#This code shows you how to download WDI data with R#
+#       and how to export as an excel file          #
+#####################################################
 
 #~~~defining the work file: where the exported data will be stored~~~~#
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
@@ -9,12 +13,12 @@ setwd(choose.dir())
 #or
 setwd("C:/Users/Dany/Desktop/mes_travaux/TIC-STAT_Data/ma_chaine_youtube/codes")
 
-#~~~~~~~~~~~~~~~~Install and have help about the  package WDI~~#
+#~~~~~Install and have help about the  package WDI~~#
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
 # to install the package WDI  (you need to be connected)
 install.packages("WDI")
-
+library(help="WDI")
 
 # having help about the package
 library(help="WDI")
@@ -23,8 +27,8 @@ library(help="WDI")
 library("WDI")
 
 
-#~~~~~~~~~~~~~~~~   Extraction et modification des données  ~~~~~~~~~~~~~#
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+#~~~~~~~~~~~~~~~~   Extracting and exporting data  ~~~~~~~~~~~~~#
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
 #to see more about WDI_data
 str(WDI_data)
@@ -100,5 +104,7 @@ library(openxlsx)
 
 write.xlsx(data, "data_va.xlsx")
 
-#Base=read.xlsx("Base_va.xlsx")
-
+#########################################################
+#follow on youtube with the link bellow for     tutorial#
+#              https://youtu.be/dDmR-YCT5Ak             #
+#########################################################
