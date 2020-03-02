@@ -1,4 +1,6 @@
 
+###This Code Shows you how to download WDI data with R and export to excel file####
+
 #~~~defining the work file: where the exported data will be stored~~~~#
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
@@ -23,8 +25,8 @@ library(help="WDI")
 library("WDI")
 
 
-#~~~~~~~~~~~~~~~~   Extraction et modification des données  ~~~~~~~~~~~~~#
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+#~~~~~~~~~~~~~~~~   Data extraction and export  ~~~~~~~~~~~~~#
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
 #to see more about WDI_data
 str(WDI_data)
@@ -102,3 +104,7 @@ write.xlsx(data, "data_va.xlsx")
 
 #Base=read.xlsx("Base_va.xlsx")
 
+##############################
+#   youtube tutorial for it  #
+#https://youtu.be/dDmR-YCT5Ak#
+##############################
