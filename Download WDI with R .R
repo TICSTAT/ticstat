@@ -102,8 +102,6 @@ library(openxlsx)
 
 write.xlsx(data, "data_va.xlsx")
 
-#Base=read.xlsx("Base_va.xlsx")
-
 ##############################
 #   youtube tutorial for it  #
 #https://youtu.be/dDmR-YCT5Ak#
